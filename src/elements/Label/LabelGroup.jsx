@@ -36,4 +36,7 @@ export default {
       </ElementType>
     );
   },
+  meta: {
+    parent: 'SuiLabel',
+  },
 };
