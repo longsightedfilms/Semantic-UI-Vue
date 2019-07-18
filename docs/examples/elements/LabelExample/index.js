@@ -21,6 +21,10 @@ import CircularEmpty from './CircularEmpty.example';
 import Basic from './Basic.example';
 import Colored from './Colored.example';
 import Size from './Size.example';
+import GroupSize from './GroupSize.example';
+import GroupColor from './GroupColor.example';
+import GroupTag from './GroupTag.example';
+import GroupCircular from './GroupCircular.example';
 
 export default [
   {
@@ -138,6 +142,31 @@ export default [
         title: 'Size',
         description: 'A label can be small or large.',
         component: Size,
+      },
+    ],
+  },
+  {
+    title: 'Groups',
+    examples: [
+      {
+        title: 'Group size',
+        description: 'Labels can share sizes together.',
+        component: GroupSize,
+      },
+      {
+        title: 'Colored Group',
+        description: 'Labels can share colors together.',
+        component: GroupColor,
+      },
+      {
+        title: 'Tag Group',
+        description: 'Labels can share tag formatting.',
+        component: GroupTag,
+      },
+      {
+        title: 'Circular Group',
+        description: 'Labels can share shapes.',
+        component: GroupCircular,
       },
     ],
   },

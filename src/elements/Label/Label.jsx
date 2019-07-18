@@ -28,6 +28,7 @@ export default {
       type: Boolean,
       description: 'Float above another element in the upper right corner.',
     },
+    horizontal: Boolean,
     image: Boolean,
     pointing: Enum(['left', 'right', 'above', 'below'], {
       description: 'A label can point to content next to it.',
@@ -75,6 +76,7 @@ export default {
           this.floating && 'floating',
           this.basic && 'basic',
           this.image && 'image',
+          this.horizontal && 'horizontal',
           this.attached && `${this.attached} attached`,
           this.ribbon && `${this.ribbon} ribbon`,
           this.corner && `${this.corner} corner`,

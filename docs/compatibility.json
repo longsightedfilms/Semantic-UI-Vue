@@ -482,16 +482,16 @@
           "name": "groups",
           "examples": [{
             "name": "group size",
-            "implemented": false
+            "implemented": true
           }, {
             "name": "colored group",
-            "implemented": false
+            "implemented": true
           }, {
             "name": "tag group",
-            "implemented": false
+            "implemented": true
           }, {
             "name": "circular group",
-            "implemented": false
+            "implemented": true
           }]
         }]
       },

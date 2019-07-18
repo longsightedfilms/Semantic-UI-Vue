@@ -23,6 +23,7 @@ export default {
       type: Boolean,
       description: 'A list can be ordered numerically.',
     },
+    selection: Boolean,
     size: Enum.Size(),
   },
   render() {
@@ -49,6 +50,7 @@ export default {
           this.link && 'link',
           this.relaxed && 'relaxed',
           this.inverted && 'inverted',
+          this.selection && 'selection',
           'list',
         )}
         role="list"
